@@ -229,6 +229,7 @@
       packages = forAllSystems (system: {
         inherit (nixpkgsFor.${system})
           briar
+          briar-gradle2nix
         ;
       });
 
