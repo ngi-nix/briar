@@ -12,7 +12,7 @@
   inputs.gradle2nix-flake.url = "github:tadfisher/gradle2nix";
 
   outputs = { self, nixpkgs, briar, gradle2nix-flake, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system:
+    flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         pkgs = import nixpkgs { inherit system; config.android_sdk.accept_license = true; };
         gradle2nix = gradle2nix-flake.outputs.defaultPackage.${system};

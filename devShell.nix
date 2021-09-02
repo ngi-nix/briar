@@ -34,11 +34,10 @@ mkShell rec {
     load-source = ''
       [ -d src ] && rm -rfd src
 
-      mv briar src
+      mkdir -p src
       cp -rfd ${briar}/* src/
-      cd src
 
-      chmod -R +rw .
+      chmod -R +rw src
     '';
     
     gradle2nix-make = ''
