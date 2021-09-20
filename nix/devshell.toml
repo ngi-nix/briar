@@ -1,6 +1,8 @@
 [devshell]
 name = "Briar2nix"
 
+startup.main.text = "cd nix"
+
 [android]
 toolsVersion = "26.1.1"
 platformToolsVersion = "31.0.3"
