@@ -8,3 +8,4 @@ org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin:1.4.32
 org.jetbrains.kotlin.kapt:org.jetbrains.kotlin.kapt.gradle.plugin:1.4.32
 org.antlr:antlr4-runtime:4.5.2-1
 com.github.gundy:semver4j:0.16.4
+org.briarproject:obfs4proxy-android:0.0.12-dev-40245c4a
