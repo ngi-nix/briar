@@ -5,7 +5,7 @@
 
   outputs = { self, android2nix }:
     android2nix.lib.mkAndroid2nixEnv (
-      { lib, stdenv, gradle_6, jdk11, fetchurl, ... }: {
+      { lib, stdenv, gradle_6, jdk11, fetchurl, ... }: rec {
       pname = "briar";
 
       src = let
@@ -13,8 +13,8 @@
           url = "https://plugins.gradle.org/m2/org/briarproject/obfs4proxy-android/0.0.12-dev-40245c4a/obfs4proxy-android-0.0.12-dev-40245c4a.zip";
           sha256 = "10pacrw95jin1aj9a3xxasky7n8638l5qribmfsjrglihf7mmc4a";
         };
-        in stdenv.mkDerivation {
-        pname = "briar";
+      in stdenv.mkDerivation {
+        inherit pname;
         version = "dev";
         src = ./.;
         dontBuild = true;
@@ -35,7 +35,6 @@
 
           # Use prefetched obfs4proxy-android zip as it doesn't work when fetched by gradle, for some reason 
           sed -i "s|'org.briarproject:obfs4proxy-android:0.0.12-dev-40245c4a@zip'|files('${obfs4proxy-android}')|" ./bramble-android/build.gradle
-
         '';
       };
 
