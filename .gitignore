@@ -30,3 +30,4 @@ projectFilesBackup/
 
 # Nix
 result
+nix/deps.json.old

@@ -1,5 +1,5 @@
 {
-  description = "virtual environments";
+  description = "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate.";
 
   inputs.android2nix.url = "github:Mazurel/android2nix";
 
