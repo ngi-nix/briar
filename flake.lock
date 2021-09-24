@@ -7,11 +7,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1632387971,
-        "narHash": "sha256-Cjahopd4nrANOtDZtQFfPrR5+wO2D89zNKOt/16koXo=",
+        "lastModified": 1632476133,
+        "narHash": "sha256-UIxj+GV4Q7DRYl0eoUE/0CX0kzm7d6qg/uWYpCtC8do=",
         "owner": "Mazurel",
         "repo": "android2nix",
-        "rev": "fcb88d23e2e4cb2b6dcce4e16b03dcf04d893165",
+        "rev": "50939732b9f9ce4c8d67b14719dd1981ead6e3c5",
         "type": "github"
       },
       "original": {

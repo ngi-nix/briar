@@ -7596,15 +7596,15 @@
     }
   },
   {
-    "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31",
+    "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0-M1/kotlin-stdlib-common-1.6.0-M1",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "6f778763702ed6371c2cab78b3424ff2188a7283",
-      "sha256": "1hl32bjj7bwhcwl5viilbyzq7kvysnbxmv2jjslvxln3p13fj5dn"
+      "sha1": "1a6955fb369224e125862ee4e6bee3ee87fb2309",
+      "sha256": "0wjk09mbglasb0n9mydci629fdhs2d2sv6p4msr57wp1agjw7sbw"
     },
     "jar": {
-      "sha1": "043331609c7de811fed085e0dfd150874b157c32",
-      "sha256": "1b929r0199idbrdc4jbhmcvzfrpiysdik3cnw673ha5h4s7a38nz"
+      "sha1": "c28a8dafafde0fbb746c35ed339fc5c78122a00f",
+      "sha256": "034ih75g33m9fwfmspq6dwildrfcggylv9gapfypbcbznwzzw1cs"
     }
   },
   {
@@ -7632,15 +7632,15 @@
     }
   },
   {
-    "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31",
+    "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.0-M1/kotlin-stdlib-jdk7-1.6.0-M1",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "b3f53ded7aa6f0f85abfeca4b1a721849587de2d",
-      "sha256": "0y4p0y6csx1h7knpn649z4da3gq0yx2pg1v8f0cnhfi9xs4q84r3"
+      "sha1": "ca2801653e3be3dc26d2ca5ef5c22d394d1d8899",
+      "sha256": "077q54qw3g3xk69hdpgd389sb8bb3bc28zbp8xhg8fqlpr7b52lp"
     },
     "jar": {
-      "sha1": "77e0f2568912e45d26c31fd417a332458508acdf",
-      "sha256": "0py1sypb9rq10f6pzagvwxrk99r1sqbfbpmx7j29v2ffadrz8nx2"
+      "sha1": "922a787cb5f9f80fc43ea0dd87f15a24515d79f2",
+      "sha256": "0lsgi6fx08m7b7xz1r227c3glph03mmq9bn51yhzw5rywrni46c8"
     }
   },
   {
@@ -7668,15 +7668,15 @@
     }
   },
   {
-    "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31",
+    "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.0-M1/kotlin-stdlib-jdk8-1.6.0-M1",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "6b1353e3e341eeddeea8e67db3d89bed51ceb920",
-      "sha256": "1pwkm0nx186pma90db27hxzb7lhqmwnjpc07b20jnybl02mhl4a5"
+      "sha1": "edb67b32460e52917b0e0e9cb22040ec0776b168",
+      "sha256": "1v26fkzh6hnzgc3j7gyl0cvjz5pp65cspy1n4rk4zmf2n2m6rarq"
     },
     "jar": {
-      "sha1": "ff5d99aecd328872494e8921b72bf6e3af97af3e",
-      "sha256": "1p2z9ifcwm1mwa307dhrvsz3wvdx883l8ivy8792kw5cg9vgfj5m"
+      "sha1": "bc864ff6f059932566b0744fea04ff5a467e430b",
+      "sha256": "0cd7fvqzyyrjpm3kaklmz4z6bprh7w3cdd9052xrsy6p82vkryfs"
     }
   },
   {
@@ -7788,15 +7788,15 @@
     }
   },
   {
-    "path": "org/jetbrains/kotlin/kotlin-stdlib/1.5.31/kotlin-stdlib-1.5.31",
+    "path": "org/jetbrains/kotlin/kotlin-stdlib/1.6.0-M1/kotlin-stdlib-1.6.0-M1",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "f0765608cf114ef9fd254be913fcc39797b40cc4",
-      "sha256": "0v1fhm2dhr0jvdiislprp39vjxdd3gfk7w6914q8fkmc0h0pcxlg"
+      "sha1": "3f3a472f985380a89e0616e82171c29b4bd56571",
+      "sha256": "1si8azli5pzqalmkyr6wba3jhfvim8d75863p8pl9gb845hpyqgy"
     },
     "jar": {
-      "sha1": "6628d61d0f5603568e72d2d5915d2c034b4f1c55",
-      "sha256": "0s3y58i395qvpga35fjfxb8yl62kwfw58w88kaavj2zcnancw028"
+      "sha1": "9e89d700308e40019814054e72872ae8892578cc",
+      "sha256": "02sqmxaxvs7hnn1fb469z1vnbccd1g67lfpbmzzhjvxif0ghis5z"
     }
   },
   {
