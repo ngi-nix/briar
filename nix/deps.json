@@ -3504,23 +3504,23 @@
     }
   },
   {
-    "path": "com/google/guava/guava-parent/30.1.1-jre/guava-parent-30.1.1-jre",
+    "path": "com/google/guava/guava-parent/31.0-jre/guava-parent-31.0-jre",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "3d726f4e77f9b282e3b99bb1d62713a44cab3118",
-      "sha256": "0d1qxmg3paxpb7aagf0717d71vb594r9h9mdiahvz5r4r92vs8h4"
+      "sha1": "e1fb963ab5dfde3c20d387db45167c349b1bca79",
+      "sha256": "1gwr4yzbyd2bwgpiybjqjnwb24s7wrrwpgvhl2gk913p4w2x4ib8"
     }
   },
   {
-    "path": "com/google/guava/guava-testlib/30.1.1-jre/guava-testlib-30.1.1-jre",
+    "path": "com/google/guava/guava-testlib/31.0-jre/guava-testlib-31.0-jre",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "718328d28bf5dcae3d414e2a862d6e594e2fb704",
-      "sha256": "1x7j2ws804hmbk79pba9g3yr7ff6y96g1y83ywn3182r51dbzcg5"
+      "sha1": "c944ee3386f71c4a853f7e94c3cfbe1d8af75a01",
+      "sha256": "09pfk51g31963qav61i5i6zfkc3cvq9mnn0i927py36sv8ajzfpf"
     },
     "jar": {
-      "sha1": "f57a75cdd54390c2b648b06828dac53b7b5de070",
-      "sha256": "16q94j7kj73qkcb027b09jic9izbjg2qi8hcsg8l2x0yzanwjzwa"
+      "sha1": "bc22e91e8d0a7808517b1b9b9a27af98b7f1c3fc",
+      "sha256": "1rkqvybarjax5vgi50hz5v86m95xr9djcb6gfp57dkm5nzflw8c7"
     }
   },
   {
@@ -3572,15 +3572,15 @@
     }
   },
   {
-    "path": "com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre",
+    "path": "com/google/guava/guava/31.0-jre/guava-31.0-jre",
     "host": "https://repo.maven.apache.org/maven2",
     "pom": {
-      "sha1": "0f55555f43cb33c8c2f911e962ae5e4bc2f522b0",
-      "sha256": "0nfckp66ygbm7lgaw4bqfjhizd2l6xwz39pynxgqbdyli8ccj63d"
+      "sha1": "43832374b1d76d02e0ba82d3ecf9591fbe30f84b",
+      "sha256": "16wkabbidain6k76ihvqhjdb847gq3kk12j1c2j4s7w323z5i516"
     },
     "jar": {
-      "sha1": "87e0fd1df874ea3cbe577702fe6f17068b790fd8",
-      "sha256": "01jghgcy1dpkp4fvnnqr7n8fdmrlxkybnqn3mzrhp23dwaf25kj4"
+      "sha1": "5ce63e26483f62c44216ff36ebd0d571347a6c58",
+      "sha256": "1arymmwfvyj576g1zpryrhlm0lrhighv6l9bin8fghrlljvif384"
     }
   },
   {

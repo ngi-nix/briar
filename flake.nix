@@ -1,3 +1,12 @@
+# This file allows building Briar with Nix build system.
+# To learn more about nix, see: https://nixos.org/
+# To enable flakes (required for building this project), see:
+# https://nixos.wiki/wiki/Flakes
+# To update dependencies (if this build fails), please run:
+# > nix develop .
+# > generate --root-dir ../. --jobs <Num of your cores>
+# > exit
+# Profit ! (aka it should build)
 {
   description = "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate.";
 
@@ -38,7 +47,7 @@
         '';
       };
 
-      gradlePkgs = gradle_6;
+      gradlePkg = gradle_6;
       jdk = jdk11;
       
       devshell = ./nix/devshell.toml;
