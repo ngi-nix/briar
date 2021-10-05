@@ -20,6 +20,22 @@
         "type": "github"
       }
     },
+    "briar": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630420691,
+        "narHash": "sha256-Uh8QiAoso+xObo4BZRiACmgI7hWgRgvP3ev9zvHJYgM=",
+        "ref": "master",
+        "rev": "807677532c084a83c9e5943fa550fc7a906dc1df",
+        "revCount": 6469,
+        "type": "git",
+        "url": "https://code.briarproject.org/briar/briar.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://code.briarproject.org/briar/briar.git"
+      }
+    },
     "devshell-flake": {
       "locked": {
         "lastModified": 1631528035,
@@ -68,7 +84,8 @@
     },
     "root": {
       "inputs": {
-        "android2nix": "android2nix"
+        "android2nix": "android2nix",
+        "briar": "briar"
       }
     }
   },

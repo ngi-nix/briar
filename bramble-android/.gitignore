@@ -1,6 +1,0 @@
-bin
-gen
-build
-.settings
-src/main/res/raw/*.zip
-src/main/jniLibs

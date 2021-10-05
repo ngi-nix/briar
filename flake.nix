@@ -12,7 +12,12 @@
 
   inputs.android2nix.url = "github:Mazurel/android2nix";
 
-  outputs = { self, android2nix }:
+  inputs.briar = {
+    url = "git+https://code.briarproject.org/briar/briar.git";
+    flake = false;
+  };
+
+  outputs = { self, android2nix, briar }:
     android2nix.lib.mkAndroid2nixEnv (
       { lib, stdenv, gradle_6, jdk11, fetchurl, ... }: rec {
       pname = "briar";
@@ -25,7 +30,7 @@
       in stdenv.mkDerivation {
         inherit pname;
         version = "dev";
-        src = ./.;
+        src = briar;
         dontBuild = true;
         dontConfigure = true;
 
